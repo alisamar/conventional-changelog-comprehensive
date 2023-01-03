@@ -1,0 +1,46 @@
+{
+  "name": "conventional-changelog-comprehensive",
+  "version": "0.1.0",
+  "description": "conventional-changelog comprehensive preset",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alisamar/conventional-changelog-comprehensive.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "preset"
+  ],
+  "files": [
+    "add-bang-notes.js",
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "author": "Ali Samar",
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alisamar/conventional-changelog-comprehensive/issues"
+  },
+  "homepage": "https://github.com/alisamar/conventional-changelog-comprehensive#readme",
+  "dependencies": {
+    "compare-func": "^2.0.0",
+    "lodash": "^4.17.15",
+    "q": "^1.5.1"
+  },
+  "standard-version": {
+    "header": "# Changelog\n\nAll notable changes to this project will be documented in this file. Visit [comprehensive](https://github.com/alisamar/conventional-changelog-comprehensive#readme) website for more details.",
+    "tagPrefix": "",
+    "skip": {
+      "tag": true,
+      "commit": true
+    }
+  }
+}
