@@ -1,3 +1,6 @@
+{{#*inline "inlineBody"}}
+{{body}}
+{{/inline}}
 *{{#if scope}} **{{scope}}:**
 {{~/if}} {{#if subject}}
   {{~subject}}
@@ -31,11 +34,11 @@
 {{!-- added comment body for more detailed changelog --}}
 {{~#if body}}
 {{{{raw}}}}
-  
+
 {{{{/raw}}}}
-{{body}}
+  {{> inlineBody}}
 {{~/if}}
 
 {{{{raw}}}}
-  
+
 {{{{/raw}}}}
